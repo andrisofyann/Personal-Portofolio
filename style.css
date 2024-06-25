@@ -516,19 +516,20 @@ footer span a:hover{
     }
     .navbar .menu{
         position: fixed;    height: 100vh;
-        width: 100%;    left: -100px;
+        width: 0%;    left: -100px;
         top: 0;     background: #111;
         text-align: center;     padding-top: 80px;
         transition: all 0.3s ease;
     }
     .navbar .menu.active{
         left: 0;
+        width: 25%;
     }
     .navbar .menu li{
         display: block;
     }
     .navbar .menu li a{
-        display: inline-block;      margin: 20px 0;     font-size: 25px;
+        display: inline-block;      margin: 15px 0;     font-size: 25px;
     }
     .home .home-content .text-2{
         font-size: 70px;
